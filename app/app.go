@@ -5,7 +5,7 @@ import (
 	"github.com/evgeniylapta/go/utils"
 	"github.com/evgeniylapta/go/village/generator"
 	"github.com/evgeniylapta/go/worldmap"
-	"time"
+	"github.com/gin-gonic/gin"
 )
 
 const generateParameter = "generate"
@@ -18,9 +18,14 @@ func generateStart() {
 }
 
 func runStart() {
-	for {
-		time.Sleep(time.Second)
-	}
+	r := gin.Default()
+
+	r.GET("/ping", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"message": "pong",
+		})
+	})
+	r.Run(":4300")
 }
 
 func Start() {
