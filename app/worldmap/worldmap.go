@@ -1,10 +1,10 @@
 package worldmap
 
-import "github.com/evgeniylapta/go/village"
+import "github.com/evgeniylapta/go/app/village"
 
 type WorldMap struct {
 	villages []village.Village
-	size int
+	size     int
 }
 
 type Cord struct {
@@ -15,4 +15,3 @@ type Cord struct {
 func New(size int, villages []village.Village) WorldMap {
 	return WorldMap{villages, size}
 }
-

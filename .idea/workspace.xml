@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff972930-0ce0-4c6f-ab1b-a060784cdbb1" name="Default Changelist" comment="remove dependencies">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="ff972930-0ce0-4c6f-ab1b-a060784cdbb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/commandline/worldgenerate.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit/archer/archer.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/unit/archer/archer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit/interfaces.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/unit/interfaces.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unit/legionary/legionary.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/unit/legionary/legionary.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/village/generator/generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/village/generator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/village/village.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/village/village.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/worldmap/worldmap.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/worldmap/worldmap.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
@@ -28,13 +41,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1VlEg3c6QPI5WfYGw23TU8v1Ci4" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -46,6 +63,14 @@
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/village" />
+      <recent name="$PROJECT_DIR$/commandline" />
+      <recent name="$PROJECT_DIR$/commandline/generate" />
+      <recent name="$PROJECT_DIR$/app" />
+    </key>
   </component>
   <component name="RunManager" selected="Go Build.run">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -61,7 +86,7 @@
       <module name="go" />
       <working_directory value="$PROJECT_DIR$/.." />
       <go_parameters value="-i" />
-      <parameters value="generate" />
+      <parameters value="generate-world" />
       <kind value="DIRECTORY" />
       <filePath value="$PROJECT_DIR$/main.go" />
       <directory value="$PROJECT_DIR$" />
@@ -99,6 +124,8 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/src/github.com/gin-contrib/sse" />
       <path value="$PROJECT_DIR$/src/github.com/gin-gonic/gin" />
@@ -111,40 +138,50 @@
       <path value="$PROJECT_DIR$/src/github.com/ugorji/go" />
       <path value="$PROJECT_DIR$/src/gopkg.in/yaml.v2" />
     </ignored-roots>
+    <MESSAGE value="add gin dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gin dependency" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="203" key="#Go_Modules_(vgo)" timestamp="1577819474783">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="203" key="#Go_Modules_(vgo)/0.23.1680.1027@0.23.1680.1027" timestamp="1577819474783" />
-    <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577827305009">
+    <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577828255223">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577827305009" />
-    <state x="285" y="137" key="CommitChangelistDialog2" timestamp="1577824093496">
+    <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577828255223" />
+    <state x="285" y="137" key="CommitChangelistDialog2" timestamp="1577827428134">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="285" y="137" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1577824093496" />
-    <state width="1638" height="443" key="GridCell.Tab.0.bottom" timestamp="1577827340230">
+    <state x="285" y="137" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1577827428134" />
+    <state x="51" y="115" key="DiffContextDialog" timestamp="1577827394023">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="443" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1577827340230" />
-    <state width="1638" height="443" key="GridCell.Tab.0.center" timestamp="1577827340229">
+    <state x="51" y="115" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577827394023" />
+    <state width="1638" height="443" key="GridCell.Tab.0.bottom" timestamp="1577828268364">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="443" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1577827340229" />
-    <state width="1638" height="443" key="GridCell.Tab.0.left" timestamp="1577827340228">
+    <state width="1638" height="443" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1577828268364" />
+    <state width="1638" height="443" key="GridCell.Tab.0.center" timestamp="1577828268363">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="443" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1577827340228" />
-    <state width="1638" height="443" key="GridCell.Tab.0.right" timestamp="1577827340229">
+    <state width="1638" height="443" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1577828268363" />
+    <state width="1638" height="443" key="GridCell.Tab.0.left" timestamp="1577828268362">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="443" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1577827340229" />
+    <state width="1638" height="443" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1577828268362" />
+    <state width="1638" height="443" key="GridCell.Tab.0.right" timestamp="1577828268363">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="443" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1577828268363" />
     <state x="341" y="175" key="SettingsEditor" timestamp="1577824591249">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1577824591249" />
+    <state x="440" y="278" key="Vcs.Push.Dialog.v2" timestamp="1577827435100">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="278" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577827435100" />
     <state x="613" y="476" key="com.goide.codeInsight.imports.GoImportConfigurable$AddImportExclusionDialog" timestamp="1577820110657">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
