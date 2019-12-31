@@ -24,9 +24,7 @@ func runStart() {
 }
 
 func Start() {
-	//router := gin.Accounts{}.Default()
-
-	switch  {
+	switch {
 	case utils.StringFound(utils.ArgsWithoutProg(), generateParameter):
 		generateStart()
 	default:
