@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ff972930-0ce0-4c6f-ab1b-a060784cdbb1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/github.com/ugorji/go/codec/codecgen/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ugorji/go/codec/codecgen/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/ugorji/go/codec/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ugorji/go/codec/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/github.com/ugorji/go/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/src/github.com/ugorji/go/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/src/gopkg.in/yaml.v2/go.mod" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/github.com/gin-contrib/sse" />
+  </component>
+  <component name="GoDepProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$/../../../.." />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VlEg3c6QPI5WfYGw23TU8v1Ci4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.autoimport" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/.." />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <output_directory value="$USER_HOME$/projects/go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build go/" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/.." />
+      <go_parameters value="-i" />
+      <parameters value="generate" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <directory value="$PROJECT_DIR$" />
+      <output_directory value="$USER_HOME$/projects/go" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="203" key="#Go_Modules_(vgo)" timestamp="1577819474783">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="440" y="203" key="#Go_Modules_(vgo)/0.23.1680.1027@0.23.1680.1027" timestamp="1577819474783" />
+    <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577822731820">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577822731820" />
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom" timestamp="1577823425387">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1577823425387" />
+    <state width="1638" height="280" key="GridCell.Tab.0.center" timestamp="1577823425386">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1577823425386" />
+    <state width="1638" height="280" key="GridCell.Tab.0.left" timestamp="1577823425386">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1577823425386" />
+    <state width="1638" height="280" key="GridCell.Tab.0.right" timestamp="1577823425386">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1577823425386" />
+    <state x="341" y="175" key="SettingsEditor" timestamp="1577823322367">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1577823322367" />
+    <state x="613" y="476" key="com.goide.codeInsight.imports.GoImportConfigurable$AddImportExclusionDialog" timestamp="1577820110657">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="613" y="476" key="com.goide.codeInsight.imports.GoImportConfigurable$AddImportExclusionDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577820110657" />
+  </component>
+</project>
