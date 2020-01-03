@@ -1,6 +1,7 @@
-package app
+package api
 
 import (
+	"fmt"
 	"github.com/gin-gonic/gin"
 )
 
@@ -12,5 +13,7 @@ func Start() {
 			"message": "pong",
 		})
 	})
-	r.Run(":4400")
+	err := r.Run(":4400")
+
+	fmt.Println(err)
 }

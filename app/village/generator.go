@@ -4,17 +4,37 @@ import (
 	"github.com/evgeniylapta/go/utils"
 )
 
-func worker(vilChan chan Village, length int) {
+func isUniqueVillage(villages []Village, vil Village) bool {
+	for _, curVil := range villages {
+		if curVil.Y == vil.Y && curVil.X == vil.X {
+			return false
+		}
+	}
+
+	return true
+}
+
+func worker(vilChan chan Village, length int, minCord, maxCord int) {
+	vils := []Village{}
+
 	for i := 0; i < length; i++ {
-		const min, max = 0, 10000
-		vilChan <- New(utils.RandomInt(min, max), utils.RandomInt(min, max))
+		var isUnique bool
+
+		for !isUnique {
+			vil := New(utils.RandomInt(minCord, maxCord), utils.RandomInt(minCord, maxCord))
+
+			if isUnique = isUniqueVillage(vils, vil); isUnique {
+				vilChan <- vil
+				vils = append(vils, vil)
+			}
+		}
 	}
 }
 
-func Generate(length int) (villages []Village) {
+func GenerateVillages(length int, minCord, maxCord int) (villages []Village) {
 	vilChan := make(chan Village, length)
 
-	go worker(vilChan, length)
+	go worker(vilChan, length, minCord, maxCord)
 
 	vilCount := 0
 	for {

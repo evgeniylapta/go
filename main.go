@@ -1,16 +1,20 @@
 package main
 
 import (
-	"github.com/evgeniylapta/go/app"
+	"github.com/evgeniylapta/go/api"
 	"github.com/evgeniylapta/go/commandline"
 	"github.com/evgeniylapta/go/utils"
 )
 
+func shouldStartWorldGenerate() bool {
+	return utils.StringFound(utils.ArgsWithoutProg(), commandline.GenWorldProgramParam)
+}
+
 func main() {
 	switch {
-	case utils.StringFound(utils.ArgsWithoutProg(), commandline.GenWorldProgParam):
+	case shouldStartWorldGenerate():
 		commandline.WorldGenStart()
 	default:
-		app.Start()
+		api.Start()
 	}
 }

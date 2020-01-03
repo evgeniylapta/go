@@ -2,21 +2,99 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ff972930-0ce0-4c6f-ab1b-a060784cdbb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/commandline/worldgenerate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appconfig.example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/village/generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/village/generator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/village/village.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/village/village.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandline/worldgenerate.go" beforeDir="false" afterPath="$PROJECT_DIR$/commandline/worldgenerate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/archer/archer.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/unit/archer/archer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/interfaces.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/unit/interfaces.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unit/legionary/legionary.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/unit/legionary/legionary.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/village/generator/generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/village/generator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/village/village.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/village/village.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worldmap/worldmap.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/worldmap/worldmap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/leodido/go-urn/machine.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/leodido/go-urn/machine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/executor.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/executor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/go_above_19.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/go_above_19.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/go_below_19.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/go_below_19.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/unbounded_executor.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/unbounded_executor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/modern-go/reflect2/reflect2.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/modern-go/reflect2/reflect2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/readerc.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/readerc.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/resolve.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/resolve.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/sorter.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/sorter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="villages: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+    </expand>
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,6 +128,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -65,14 +144,18 @@
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api" />
       <recent name="$PROJECT_DIR$/app/village" />
       <recent name="$PROJECT_DIR$/commandline" />
       <recent name="$PROJECT_DIR$/commandline/generate" />
       <recent name="$PROJECT_DIR$/app" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.run">
+  <component name="RunManager" selected="Go Build.generate">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$/.." />
@@ -84,7 +167,7 @@
     </configuration>
     <configuration name="generate" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="go" />
-      <working_directory value="$PROJECT_DIR$/.." />
+      <working_directory value="$PROJECT_DIR$" />
       <go_parameters value="-i" />
       <parameters value="generate-world" />
       <kind value="DIRECTORY" />
@@ -113,7 +196,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:postgres@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3cdd83d8" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -139,52 +232,101 @@
       <path value="$PROJECT_DIR$/src/gopkg.in/yaml.v2" />
     </ignored-roots>
     <MESSAGE value="add gin dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="add gin dependency" />
+    <MESSAGE value="folders structure refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="folders structure refactoring" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="203" key="#Go_Modules_(vgo)" timestamp="1577819474783">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="440" y="203" key="#Go_Modules_(vgo)/0.23.1680.1027@0.23.1680.1027" timestamp="1577819474783" />
-    <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577828255223">
+    <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577905203556">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577828255223" />
-    <state x="285" y="137" key="CommitChangelistDialog2" timestamp="1577827428134">
+    <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577905203556" />
+    <state x="285" y="137" key="CommitChangelistDialog2" timestamp="1578054777841">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="285" y="137" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1577827428134" />
-    <state x="51" y="115" key="DiffContextDialog" timestamp="1577827394023">
+    <state x="285" y="137" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1578054777841" />
+    <state x="51" y="115" key="DiffContextDialog" timestamp="1578051783426">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="51" y="115" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577827394023" />
-    <state width="1638" height="443" key="GridCell.Tab.0.bottom" timestamp="1577828268364">
+    <state x="51" y="115" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1578051783426" />
+    <state width="1638" height="345" key="GridCell.Tab.0.bottom" timestamp="1578054673047">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="443" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1577828268364" />
-    <state width="1638" height="443" key="GridCell.Tab.0.center" timestamp="1577828268363">
+    <state width="1638" height="345" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673047" />
+    <state width="1638" height="345" key="GridCell.Tab.0.center" timestamp="1578054673047">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="443" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1577828268363" />
-    <state width="1638" height="443" key="GridCell.Tab.0.left" timestamp="1577828268362">
+    <state width="1638" height="345" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673047" />
+    <state width="1638" height="345" key="GridCell.Tab.0.left" timestamp="1578054673046">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="443" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1577828268362" />
-    <state width="1638" height="443" key="GridCell.Tab.0.right" timestamp="1577828268363">
+    <state width="1638" height="345" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673046" />
+    <state width="1638" height="345" key="GridCell.Tab.0.right" timestamp="1578054673047">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="443" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1577828268363" />
+    <state width="1638" height="345" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673047" />
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1578054673049">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673049" />
+    <state width="1638" height="345" key="GridCell.Tab.1.center" timestamp="1578054673048">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673048" />
+    <state width="1638" height="345" key="GridCell.Tab.1.left" timestamp="1578054673048">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673048" />
+    <state width="1638" height="345" key="GridCell.Tab.1.right" timestamp="1578054673049">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="345" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673049" />
+    <state width="239" height="498" key="HiddenNamespacesPopup" timestamp="1577906799664">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="239" height="498" key="HiddenNamespacesPopup/0.23.1680.1027@0.23.1680.1027" timestamp="1577906799664" />
     <state x="341" y="175" key="SettingsEditor" timestamp="1577824591249">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1577824591249" />
-    <state x="440" y="278" key="Vcs.Push.Dialog.v2" timestamp="1577827435100">
+    <state x="440" y="278" key="Vcs.Push.Dialog.v2" timestamp="1577828312007">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="278" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577827435100" />
+    <state x="440" y="278" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577828312007" />
     <state x="613" y="476" key="com.goide.codeInsight.imports.GoImportConfigurable$AddImportExclusionDialog" timestamp="1577820110657">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="613" y="476" key="com.goide.codeInsight.imports.GoImportConfigurable$AddImportExclusionDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577820110657" />
+    <state x="730" y="415" width="347" height="243" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1578051687377">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="730" y="415" width="347" height="243" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.23.1680.1027@0.23.1680.1027" timestamp="1578051687377" />
+    <state x="576" y="230" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1577908033858">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="576" y="230" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577908033858" />
+    <state x="702" y="291" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1577905356856">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="702" y="291" key="com.intellij.database.view.ui.DbObjectDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577905356856" />
+    <state x="100" y="123" width="1480" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1578054199373">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="100" y="123" width="1480" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1578054199373" />
+    <state x="497" y="160" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577907363242">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="497" y="160" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1577907363242" />
+    <state x="495" y="300" width="689" height="472" key="find.popup" timestamp="1577871020943">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="495" y="300" width="689" height="472" key="find.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1577871020943" />
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup" timestamp="1577871027309">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="505" y="187" width="670" height="676" key="search.everywhere.popup/0.23.1680.1027@0.23.1680.1027" timestamp="1577871027309" />
   </component>
 </project>

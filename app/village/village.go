@@ -1,10 +1,13 @@
 package village
 
+import "github.com/jinzhu/gorm"
+
 type Village struct {
-	x int
-	y int
+	gorm.Model
+	X int
+	Y int
 }
 
-func New (x, y int) Village {
-	return Village{x, y}
+func New(x, y int) Village {
+	return Village{X: x, Y: y}
 }
