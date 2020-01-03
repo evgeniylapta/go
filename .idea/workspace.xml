@@ -1,31 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ff972930-0ce0-4c6f-ab1b-a060784cdbb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/appconfig.example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appconfig.json" afterDir="false" />
+    <list default="true" id="ff972930-0ce0-4c6f-ab1b-a060784cdbb1" name="Default Changelist" comment="folders structure refactoring">
+      <change afterPath="$PROJECT_DIR$/dbmanage/dbmanage.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/api.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/village/generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/village/generator.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/village/village.go" beforeDir="false" afterPath="$PROJECT_DIR$/app/village/village.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appconfig.example.json" beforeDir="false" afterPath="$PROJECT_DIR$/dbconfig.example.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commandline/worldgenerate.go" beforeDir="false" afterPath="$PROJECT_DIR$/commandline/worldgenerate.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/leodido/go-urn/machine.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/leodido/go-urn/machine.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/mattn/go-isatty/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/executor.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/executor.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/go_above_19.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/go_above_19.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/go_below_19.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/go_below_19.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/unbounded_executor.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/modern-go/concurrent/unbounded_executor.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/modern-go/reflect2/reflect2.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/modern-go/reflect2/reflect2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/github.com/ugorji/go/codec/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/readerc.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/readerc.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/resolve.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/resolve.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/sorter.go" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/sorter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/modules.txt" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/modules.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +213,8 @@
     </ignored-roots>
     <MESSAGE value="add gin dependency" />
     <MESSAGE value="folders structure refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="folders structure refactoring" />
+    <MESSAGE value="add db connection" />
+    <option name="LAST_COMMIT_MESSAGE" value="add db connection" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="203" key="#Go_Modules_(vgo)" timestamp="1577819474783">
@@ -244,30 +225,34 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="304" y="200" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1577905203556" />
-    <state x="285" y="137" key="CommitChangelistDialog2" timestamp="1578054777841">
+    <state x="578" y="292" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1578054860913">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="285" y="137" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1578054777841" />
-    <state x="51" y="115" key="DiffContextDialog" timestamp="1578051783426">
+    <state x="578" y="292" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1578054860913" />
+    <state x="285" y="137" key="CommitChangelistDialog2" timestamp="1578054847441">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="51" y="115" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1578051783426" />
-    <state width="1638" height="345" key="GridCell.Tab.0.bottom" timestamp="1578054673047">
+    <state x="285" y="137" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1578054847441" />
+    <state x="51" y="115" key="DiffContextDialog" timestamp="1578054845114">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="345" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673047" />
-    <state width="1638" height="345" key="GridCell.Tab.0.center" timestamp="1578054673047">
+    <state x="51" y="115" key="DiffContextDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1578054845114" />
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom" timestamp="1578055134027">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="345" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673047" />
-    <state width="1638" height="345" key="GridCell.Tab.0.left" timestamp="1578054673046">
+    <state width="1638" height="346" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1578055134027" />
+    <state width="1638" height="346" key="GridCell.Tab.0.center" timestamp="1578055134026">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="345" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673046" />
-    <state width="1638" height="345" key="GridCell.Tab.0.right" timestamp="1578054673047">
+    <state width="1638" height="346" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1578055134026" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left" timestamp="1578055134026">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="345" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1578054673047" />
+    <state width="1638" height="346" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1578055134026" />
+    <state width="1638" height="346" key="GridCell.Tab.0.right" timestamp="1578055134027">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="346" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1578055134027" />
     <state width="1638" height="345" key="GridCell.Tab.1.bottom" timestamp="1578054673049">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -292,10 +277,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="341" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1577824591249" />
-    <state x="440" y="278" key="Vcs.Push.Dialog.v2" timestamp="1577828312007">
+    <state x="440" y="278" key="Vcs.Push.Dialog.v2" timestamp="1578054849953">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="440" y="278" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1577828312007" />
+    <state x="440" y="278" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1578054849953" />
     <state x="613" y="476" key="com.goide.codeInsight.imports.GoImportConfigurable$AddImportExclusionDialog" timestamp="1577820110657">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -316,10 +301,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="100" y="123" width="1480" height="827" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1578054199373" />
-    <state x="497" y="160" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577907363242">
+    <state x="497" y="160" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578055037669">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="497" y="160" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1577907363242" />
+    <state x="497" y="160" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1578055037669" />
     <state x="495" y="300" width="689" height="472" key="find.popup" timestamp="1577871020943">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
